@@ -10,7 +10,8 @@
 	<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cinzel Decorative">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Forum">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
 	<link rel="icon" type="img/ico" href="img/cafeicono.ico">
 	<style>
@@ -19,7 +20,11 @@
 
 		}
 		p{
-			font-family: "Inconsolata", sans-serif;
+			font-family: "Forum", sans-serif;
+		}
+		nav, h3{
+			font-family: "Cinzel Decorative", sans-serif;
+			
 		}
 
 		.person {
@@ -38,9 +43,10 @@
 			margin-bottom: 0;
 			background-color: #2d2d30;
 			border: 0;
-			font-size: 11px !important;
+			font-size: 13px !important;
 			letter-spacing: 4px;
 			opacity:0.9;
+			font-style: bold;
 		}
 
 		/* Add a gray color to all navbar links */
@@ -63,6 +69,8 @@
 		/* Remove border color from the collapsible button */
 		.navbar-default .navbar-toggle {
 			border-color: transparent;
+		}.navbar-brand {
+			font-size: 20px;
 		}
 
 		/* Dropdown */
@@ -95,6 +103,9 @@
 			color: #777;
 			text-decoration: none;
 		}
+		.arriba{
+			padding-top:50px;
+		}
 
 
 
@@ -102,12 +113,12 @@
 
 	</style>
 </head>
-<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50" class="w3-sand">
 
 
 
 	<!-- Nav -->
-	<nav class="navbar navbar-default navbar-fixed-top w3-card-8 " >
+	<nav class="navbar navbar-default navbar-fixed-top w3-card-8" >
 		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -186,10 +197,10 @@
 
 
 
-	<div class="w3-sand w3-large">
+	<div class=" w3-large">
 		<br><br> 
 		<!-- Divs -->
-		<div class="container-fluid w3-sand" id="wir">
+		<div class="container-fluid arriba" id="wir">
 			<div class="container text-center">
 				<h3>Wir</h3><br>
 				<p>Inzwischen hat sich das Café Auszeit längst zu einem gern besuchten Treffpunkt für Frühstücks,- Kaffee- und Kuchenliebhaber im Stadtteil Hamm und Umgebung entwickelt. Dabei sind es nicht nur die diversen Kaffee- und Teespezialitäten oder die hausgemachten Kuchen und Torten, die Gäste aus den verschiedensten Gegenden anlocken. Das Café mit seinem Landhauscharme, verleitet ebenso zum Verweilen um etwas Ruhe in den hektischen Alltag zu bringen. Gönnen Sie sich etwas Stille und lassen Sie die Minuten im "Auszeit" mal etwas langsamer vergehen…</p>
@@ -203,7 +214,7 @@
 
 		</div>
 
-		<div id="kaffeundtee" class="container text-center ">
+		<div id="kaffeundtee" class="container text-center arriba">
 			<h3>Kaffee & Tee</h3><br>
 			<p>Mit unserem Mailänder Siebträger des Herstellers Vibiemme, sind wir in der Lage beste Caféspezialitäten zuzubereiten. In Verbindung mit feinstem Sizilianischen Espresso dessen Röstung seit 1960 perfektioniert wird und hierdurch nahezu keinerlei Qualitätsabweichungen mehr zulässt, wird jeder Espresso zum Geschmackserlebnis. Ebenso legen wir sehr großen Wert auf beste Teequalität, und wo findet man einen besseren Partner als in unserer schönen Speicherstadt… Die Firma Samova, verbindet beste Teevariationen mit feinster Bioqualität. Wir sind froh, Ihnen einen so tollen Tee anbieten zu können. Sämtliche im Café angebotenen Tees können ebenso für den Genuss zu Hause erworben werden.</p>
 			<div class="row">
@@ -213,8 +224,8 @@
 			</div>	
 		</div>
 
-		<div class="container-fluid w3-sand">
-			<div id="kuchen" class="container text-center ">
+		<div class="container-fluid ">
+			<div id="kuchen" class="container text-center arriba">
 				<h3>Kuchen</h3><br>
 				<p>Unsere Kuchen und Torten sind zum großen Teil hausgemacht, da wir mit unseren Kapazitäten - gerade an Sonn- und Feiertagen - den Bedarf an Kuchen nicht decken können, haben wir uns kompetente Hilfe gesucht. Die Sahneschnitte, bekannt von den schönsten Hamburger Wochenmärkten, beliefert uns schon seit zwei Jahren mit bester Qualität an gesunden Back- und Konditorwaren aus dem Alten Land. Auch wenn es nicht immer möglich ist, liegt beim Backen unser Augenmerk auf Vollkorn- und Dinkelmehl.</p>
 				<div class="row">
@@ -226,9 +237,8 @@
 		</div>
 
 		<!--Menu-->
-		<div class="container w3-sand text-center" id="speisekarte" >
-			<br>
-				<h3>Speiskarte</h3><br>
+		<div class="container arriba text-center" id="speisekarte" >
+			<h3>Speiskarte</h3><br>
 			<div class="row">
 				<div class="col-sm-6">
 					<img src="/img/o.jpg" class="img-rounded person" alt="Menu">
@@ -254,7 +264,7 @@
 							</div>
 						</div>
 						<div class="panel panel-default">
-							<div class="panel-heading w3-sand" role="tab">
+							<div class="panel-heading " role="tab">
 								<h4 class="panel-title ">
 									<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
 										<i class="fa fa-fire"></i> Firewood Pizza and Spaghetti
@@ -329,9 +339,8 @@
 				
 			</div>
         <!--Eventlocation-->
-		<div class="container-fluid w3-sand">
-			<div id="event" class="container text-center">
-				<br>
+		<div class="container-fluid ">
+			<div id="event" class="container text-center arriba">
 				<h3>Eventlocation</h3><br>
 					<p>Ist Ihr Wohnzimmer zu klein? - mieten Sie sich doch im "Auszeit" ein!
 						<br><br>
@@ -347,8 +356,7 @@
 		</div>
 
 			<!-- Kontakte -->
-			<div id="kontakte" class="container">
-				<br>
+			<div id="kontakte" class="container arriba">
 				<h3 class="text-center">Kontakte</h3>
 				<br>
 
@@ -384,7 +392,7 @@
 							}
 						</script>
 
-						<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+						<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAY7_AwOvVF1KgOEYF7bTqQGn3tyV-LeHo&callback=myMap" ></script>
 					</div>
 
 				</div><br><br>
